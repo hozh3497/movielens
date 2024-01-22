@@ -9,15 +9,15 @@ As for the embedding models, proposals for 1. An autoencoder architecture for le
 
 ***Usage***
 The files should follow the following structure:
-/
-|- data/
-     |- csv/
-         |- *.csv
-     |- tmdb/
-         |- *.json
- |- scripts/
- |
- main.py
+/\n
+|- data/\n
+     |- csv/\n
+         |- *.csv\n
+     |- tmdb/\n
+         |- *.json\n
+ |- scripts/\n
+ |\n
+ main.py\n
 
  note that the .zip file in ./data/tmdb should be uncompressed in the same directory for the program to work properly. You can install fastapi and uvicorn, in commandline in root directory, run: uvicorn main:app --reload and then go to http://127.0.0.1:8000/docs to play around with the api. The api input should follow this format:
  {
